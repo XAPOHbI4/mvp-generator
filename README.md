@@ -23,7 +23,7 @@ A **CLI tool for generating MVP applications using LLM (GPT-4o)**.
 
 1️⃣ Clone the repository:
 ```bash
-git clone https://github.com/YOUR_USERNAME/mvp-generator.git
+git clone https://github.com/XAPOHbI4/mvp-generator.git
 cd mvp-generator
 ```
 
@@ -87,8 +87,8 @@ MIT License.
 ## 📞 Contact
 
 For questions or collaboration:
-- Telegram: [YOUR TELEGRAM]
-- Email: [YOUR EMAIL]
+- Telegram: @XAPOHbI4
+- Email: xapohbi4@gmail.com
 
 ---
 
