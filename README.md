@@ -1,97 +1,53 @@
 # mvp-generator
 
-A **CLI tool for generating MVP applications using LLM (GPT-4o)**.
+**Generate and launch your MVP apps instantly with AI.**
 
-- Generates **FastAPI/Next.js** projects from plain-text prompts.
-- Saves generated project structure in `generated_projects/`.
-- Prepares projects for **Docker deployment**.
-- Designed for **fast prototyping and launch validation**.
+Describe your app in plain text, and get a **live, running application** in minutes.
 
 ---
 
-## 🚀 Features
+## ✨ What it does
 
-✅ Generate backend (FastAPI) and frontend (Next.js / Streamlit) structures.  
-✅ Automatic prompt sending to LLM and code saving.  
-✅ Lightweight CLI using `typer` for cross-platform usability.  
-✅ Structure ready for Docker Compose deployment.  
-✅ Supports `.env` for secure key management.
-
----
-
-## 🛠️ Installation
-
-1️⃣ Clone the repository:
-```bash
-git clone https://github.com/XAPOHbI4/mvp-generator.git
-cd mvp-generator
-```
-
-2️⃣ Create and activate a virtual environment:
-```bash
-python3.12 -m venv .venv
-source .venv/bin/activate  # Linux/macOS
-.\.venv\Scripts\activate   # Windows
-```
-
-3️⃣ Install dependencies:
-```bash
-pip install -r requirements.txt
-```
-
-4️⃣ Create `.env`:
-```
-OPENAI_API_KEY=your_key_here
-```
+- You send a text prompt (e.g., "Build a note-taking app with FastAPI and SQLite").
+- The system generates the backend and frontend automatically.
+- Your app is deployed immediately in a container.
+- You receive a **ready-to-use URL** to test and share your MVP.
 
 ---
 
-## ⚡ Usage
+## 🚀 Why use it?
 
-Basic usage:
-```bash
-python main.py generate "Create a FastAPI CRUD app for notes with SQLite"
-```
-
-Options will include:
-- Select backend only, frontend only, or full-stack.
-- Specify output directory.
-- View generation logs.
+✅ No coding needed  
+✅ No environment setup  
+✅ Live app in minutes  
+✅ Iterate faster, validate your ideas instantly
 
 ---
 
-## 🛣️ Roadmap
+## ⚡ Get Started
 
-- [ ] Initial CLI implementation.
-- [ ] Docker Compose integration.
-- [ ] Streaming output for large file generation.
-- [ ] Frontend for managing requests and downloads.
-- [ ] Stripe/Gumroad monetization integration.
-- [ ] Prompt caching for cost optimization.
-- [ ] Testing and CI/CD pipeline with GitHub Actions.
+1️⃣ Go to our [web interface](https://mvp-generator.yourdomain.com).  
+2️⃣ Enter your app idea as a prompt.  
+3️⃣ Click "Generate".  
+4️⃣ Receive your URL and start testing your MVP.
 
 ---
 
-## 🧩 Contributing
+## 🛠 Use Cases
 
-Pull requests, issues, and feedback are welcome.
-
----
-
-## 📜 License
-
-MIT License.
+- Rapid MVP testing before full development
+- Hackathons and idea validation
+- Fast iteration on backend APIs
+- Generating boilerplate projects on demand
 
 ---
 
-## 📞 Contact
+## 🔗 Contact
 
-For questions or collaboration:
-- Telegram: @XAPOHbI4
-- Email: xapohbi4@gmail.com
+Questions or need support?
+- Telegram: [Your Telegram]
+- Email: [Your Email]
 
 ---
 
-## ✅ Status
-
-Preparing the development environment for the MVP phase.
+### Start generating MVPs instantly and save weeks of work.
